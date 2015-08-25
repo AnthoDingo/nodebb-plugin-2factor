@@ -1,0 +1,33 @@
+{
+        "title": "Double Authentification",
+        "intro.title": "Qu'es-ce que la Double Authentification (2FA)?",
+        "disabled": "Désactivée",
+        "enabled": "Activée",
+
+        "user.intro.one": "En plus de l'authentification habituelle par nom d'utilisateur/mot de passe ou authentification unique, une seconde couche de sécurité peut être configurée, permettant l'accès uniquement si un jeton basé sur le temps est fourni, généralement généré/stocké sur un appareil mobile.",
+        "user.intro.two": "Pour activer la Double Authentification, cliquez sur le bouton ci-dessous pour générer un jeton pour NodeBB. Une fois généré, le scanner dans votre appareil mobile via Google Authenticator (ou une autre application similaire). Enfin, de confirmez la configuration en entrant le jeton fournit par vorte mobile dans l'écran de confirmation.",
+        "user.intro.three": "Une fois configuré, les tentatives de connexion n'aboutirons que lorque le mot de passe et le jeton unique seront fournis.",
+        "user.settings.title": "Paramètres de la Double Authentification",
+        "user.settings.enable": "Activer la Double Authentification",
+        "user.settings.disable": "Désactiver la Double Authentification",
+
+        "generate.title": "Générer un jeton &amp; Configurer un appareil",
+        "generate.text": "Le QR code ci-dessus vous permettra d'associer votre appareil mobile (via l'application Google Authenticator ou une autre application similaire) avec votre compte sur ce site. Il suffit de le scanner via l'application, puis saisir le jeton pour confirmer.",
+        "generate.safety.title": "Gardez ce jeton en sécurité! D'autres peuvent l'utiliser pour enregistrer leurs appareils avec votre compte.",
+        "generate.safety.text": "Pour des raisons de sécurité, le QR code sera uniquement affiché ici. Dans le cas où votre appareil est perdu ou indisponible, vous ne serez pas en mesure de vous connecter à NodeBB à moins de désactivé la Double Authentification sur votre compte.",
+        "generate.success": "La Double Authentification est maintenant activée!",
+
+        "disable.confirm": "Etes-vous sûr de vouloir désactiver la Double Authentification ?",
+
+        "login.text": "Entrez le code de vérification généré par votre application mobile.",
+        "login.verify": "Vérifier",
+
+        "admin.intro.one": "La <strong>Double Authentification</strong> (2FA) est un protocole de sécurité qui fonctionne en ajoutant une seconde couche d'authentification avant d'accorder l'accès. Typiquement, ces deux couches sont \"quelque chose que vous connaissez\" (par exemple, votre mot de passe), et \"quelque chose que vous possédez\" (par exemple, un jeton généré par votre appareil mobile). Ce plugin introduit la deuxième couche de sécurité permettant aux utilisateurs d'activer et jumelez leur téléphone ou d'autres dispositifs adaptés aux protocoles d'authentification de votre forum.",
+        "admin.intro.two": "Pendant que ce plugin est activé, les utilisateurs seront en mesure de voir un nouvel élément de menu de profil appelé \"Double Authentification\". Ils seront en mesure de mettre en place leurs jetons sur cette page.",
+        "admin.users.title": "Utilisateur de la Double Authentification",
+        "admin.users.text": "Les utilisateurs suivants ont activer la Double Authentification:",
+        "admin.users.none": "Aucun utilisateur...",
+        "admin.deactivate.title": "Désactivation de jetons par utilisateur",
+        "admin.deactivate.text": "Dans le cas où un utilisateur perd le dispositif utilisé pour la Double Authentification, il peut venir vers vous afin de restaurer l'accès à son compte. Une fois que vous êtes sûr qu'il est bien la personne qu'il dit être, vous pouvez désactiver la Double Authentification sur son compte en tapant son pseudo ici.",
+        "admin.deactivate.search": "Recherche d'utilisateur ici..."
+}
